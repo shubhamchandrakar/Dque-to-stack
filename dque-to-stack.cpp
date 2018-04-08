@@ -34,9 +34,7 @@ public:
 	void insert_front(int);
 	int delete_last();
 	int peap_last();
-	void last_display(){
-			cout<<"last inserted "<<q[0];
-		}
+
 };
 
 void queue::get_size(int n){
